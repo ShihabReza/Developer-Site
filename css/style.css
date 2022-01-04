@@ -34,3 +34,37 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+#Experiences{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-level{
+    display: flex;
+}
+.Experiences-item{
+    box-shadow: 10px 10px 5px grey;
+    width:50%;
+    padding:5px;
+    margin: 50px;
+    text-align: center;
+    text-align: justify;
+    border-left: 5px solid rgb(196, 17, 121);
+    
+    padding-bottom: 100px;
+    transition: 1s;
+}
+.orenge{
+    color: orange;
+}
+.Experiences-level .hrr{
+    font-weight: bold;
+    font-size: 50px;
+}
+.Experiences-item:hover{
+    background-color: #c4b6ca
+    
+}
+footer p{
+    text-align: center;
+}
